@@ -1,0 +1,30 @@
+{
+    "TeamCity": {
+      "startDate": "2023-04-28",
+      "expire": "2024-04-28"
+    },
+    "NGINX": {
+      "startDate": "2022-04-28",
+      "expire": "2024-04-28"
+    },
+    "NGINX2": {
+      "startDate": "2022-12-28",
+      "expire": "2024-04-28"
+    },
+    "Octopus": {
+      "startDate": "2022-05-01",
+      "expire": "2023-06-01"
+    },
+    "Octopus2": {
+      "startDate": "2022-05-01",
+      "expire": "2023-07-01"
+    },
+    "Octopus3": {
+      "startDate": "2022-05-01",
+      "expire": "2023-08-01"
+    },
+    "Octopus4": {
+      "startDate": "2022-05-01",
+      "expire": "2023-09-01"
+    }
+}
