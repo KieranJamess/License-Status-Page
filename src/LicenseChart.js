@@ -33,17 +33,17 @@ const LicenseChart = ({ data, title }) => {
     const infoBox = (
       <div className="info-box">
         <p>Start Date: {value.startDate}</p>
-        <p>Percent Left:  {Math.round(remainingPercentage)}%</p>
+        <p>{Math.round(barPercentage)}%</p>
         <p>End Date: {value.expire}</p>
       </div>
     );
     return (
-      <div key={key} className="license-box fadeIn" style={{ borderRadius: barRadius, animationDelay: `${100 * index}ms`, boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.5)' }}>
+      <div key={key} className="license-box fadeIn" style={{ borderRadius: barRadius, animationDelay: `${100 * index}ms` }}>
         <div className="license-bar" style={{ backgroundColor: barColor, width: `${barPercentage}%`, borderRadius: barRadius }} />
         <div className="license-info">
           <p>{key}</p>
           <div style={{ textAlign: 'right' }}>
-          <p>{daysLeft} days</p>
+          <p>{daysLeft} Days</p>
           </div>
         </div>
         {infoBox}
