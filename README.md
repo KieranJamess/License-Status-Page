@@ -2,6 +2,12 @@
 
 Welcome to my take of creating a simple status page to show licenses and to when they expire. The application has been built using react and can be hosted within a docker container. 
 
+### Darkmode Vs Lightmode comparison
+
+![comparison](https://github.com/KieranJamess/License-Status-Page/blob/main/DarkModevLightMode.png)
+
+### Demo
+
 ![demo-gif](https://github.com/KieranJamess/License-Status-Page/blob/main/demo.gif)
 
 ## Workflow
