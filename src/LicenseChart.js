@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 
-const LicenseChart = ({ data, title }) => {
+const LicenseChart = ({ data }) => {
   const today = new Date();
   const remainingPercentages = Object.keys(data).map((key) => {
     const startDate = new Date(data[key].startDate);
     const expireDate = new Date(data[key].expire);
     const totalTime = expireDate.getTime() - startDate.getTime();
     const remainingTime = expireDate.getTime() - today.getTime();
-    const daysLeft = Math.ceil(remainingTime / (1000 * 3600 * 24)); // calculate days left
+    const daysLeft = Math.ceil(remainingTime / (1000 * 3600 * 24));
     return { percentage: (remainingTime / totalTime) * 100, daysLeft };
   });
 
@@ -62,7 +62,6 @@ const LicenseChart = ({ data, title }) => {
 
   return (
     <div className="license-chart">
-      <h2 className="license-chart-title">{title}</h2>
       {bars}
     </div>
   );

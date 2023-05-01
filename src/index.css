@@ -12,7 +12,25 @@ body.dark-mode {
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-.license-chart-title {
+hr {
+  border:none;
+  height: 20px;
+ 	width: 30%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #161616;
+	box-shadow: 0 20px 20px -20px #161616;
+  margin: -50px auto 10px; 
+  transition: box-shadow 0.5s ease, border-bottom 0.5s ease;
+}
+
+body.dark-mode hr {
+  border-bottom: 1px solid #fdfdfd;
+	box-shadow: 0 20px 20px -20px #fdfdfd;
+}
+
+.license-title {
+  padding-top: 10px;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;

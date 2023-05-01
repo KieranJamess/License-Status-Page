@@ -4,11 +4,11 @@ Welcome to my take of creating a simple status page to show licenses and to when
 
 ### Darkmode Vs Lightmode comparison
 
-![comparison](https://github.com/KieranJamess/License-Status-Page/blob/main/DarkModevLightMode.png)
+![comparison](https://github.com/KieranJamess/License-Status-Page/blob/main/assets/DarkModevLightMode.png)
 
 ### Demo
 
-![demo-gif](https://github.com/KieranJamess/License-Status-Page/blob/main/demo.gif)
+![demo-gif](https://github.com/KieranJamess/License-Status-Page/blob/main/assets/demo.gif)
 
 ## Workflow
 
