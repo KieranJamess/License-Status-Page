@@ -83,7 +83,6 @@ This is the code responsible for generating the bars
    ```javascript
    return (
        <div className="license-chart">
-         <h2 className="license-chart-title">{title}</h2>
          {bars}
        </div>
      );
